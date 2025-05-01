@@ -93,7 +93,7 @@ Modern distributed systems generate vast amounts of logs and metrics. This syste
 - **Prometheus** – Metrics collection
 - **Grafana** – Data visualization
 - **Loki** – Log aggregation.
-- **Transformer-Model** - t5-base Model, Finetuned and deployed on ModelBit.
+- **Transformer-Model (Groq-Cloud Model - temporary)** - t5-base Model, Finetuned and deployed on ModelBit.
 - **WebSocket** – Bi-directional communication
 - **Python** – Backend orchestration and model interface
 
