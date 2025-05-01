@@ -13,7 +13,7 @@ This project presents an integrated observability solution that combines traditi
 - [System Architecture](#system-architecture)
 - [Components](#components)
 - [Technologies Used](#technologies-used)
-- [Sample Output](#Output-Structure:)
+- [Output Structure](#output-structure)
 - [Known Limitations](#known-limitations)
 
 ---
