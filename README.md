@@ -42,15 +42,7 @@ Modern distributed systems generate vast amounts of logs and metrics. This syste
 
 ## System Architecture
 
-```
-[ Slave Servers ] -> [ Prometheus Scraper ] -> [ Loki Log Aggregator ] -> [ Grafana Dashboard ]
-                                                 |
-                                                 v
-                                          [ LLM Server via WebSocket ]
-                                                 |
-                                                 v
-                                    [ Model-Bit Cloud (Returns the Recommendations)]
-```
+![Image](https://github.com/user-attachments/assets/c0e500ac-3937-4964-bd42-c10f05d2bcdb)
 
 - **Slave Servers**: Push logs to designated log shipper files.
 - **Prometheus**: Scrapes metrics at regular intervals.
