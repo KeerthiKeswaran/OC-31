@@ -16,8 +16,6 @@ This project presents an integrated observability solution that combines traditi
 - [Setup Instructions](#setup-instructions)
 - [Sample Output](#sample-output)
 - [Known Limitations](#known-limitations)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ---
 
