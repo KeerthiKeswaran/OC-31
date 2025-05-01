@@ -65,10 +65,6 @@ Modern distributed systems generate vast amounts of logs and metrics. This syste
 
 ![Image](https://github.com/user-attachments/assets/87e1482c-daee-48b1-a031-f99fb4828c7d)
 
-![Image](https://github.com/user-attachments/assets/3bdeb542-9da5-4575-81d5-6b76a0637e02)
-
-![Image](https://github.com/user-attachments/assets/4c765917-8e5c-4b79-9b6e-790ad6b31acd)
-
 
 ## Components
 
