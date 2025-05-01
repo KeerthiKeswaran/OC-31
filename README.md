@@ -13,7 +13,6 @@ This project presents an integrated observability solution that combines traditi
 - [System Architecture](#system-architecture)
 - [Components](#components)
 - [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
 - [Sample Output](#sample-output)
 - [Known Limitations](#known-limitations)
 
@@ -97,41 +96,7 @@ Modern distributed systems generate vast amounts of logs and metrics. This syste
 
 ---
 
-## Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/ai-observability-system.git
-   cd ai-observability-system
-   ```
-
-2. **Start Prometheus and Loki**
-   - Use `docker-compose` or manual binaries.
-   - Ensure scrape configs are updated for all slave servers.
-
-3. **Configure Slave Log Shippers**
-   - Log files should follow structured format.
-   - Add log shipping paths to Loki config.
-
-4. **Run LLM Master Server**
-   ```bash
-   python llm_master_server.py
-   ```
-
-5. **Connect WebSocket Clients**
-   - Slave servers should open socket to master for real-time log push.
-
-6. **Launch Grafana**
-   - Import prebuilt dashboards.
-   - Integrate with Loki and Prometheus data sources.
-
-7. **Verify LLM Inference**
-   - Trigger a warning/error event.
-   - Check Grafana JSON panel for AI response.
-
----
-
-## Sample Output
+## Output Structure:
 
 ```json
 {
